@@ -1,0 +1,48 @@
+body{
+    background:linear-gradient(90deg,aqua,blue);
+    animation: color 10s ease-in-out infinite;
+    background-size: 200% 200%;
+    text-align: center;
+   
+
+} 
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: sandybrown;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container a:hover{
+    background-color:darkslategrey;
+    color: white;
+    transition: 0.5s;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px; 
+    color: white;
+}

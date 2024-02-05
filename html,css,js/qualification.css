@@ -1,0 +1,25 @@
+body{
+    background-color:darkturquoise;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: sandybrown;
+    display: inline-block;
+
+}
+.links a:hover{
+    background-color:darkslategray ;
+    color: white;
+    transition: 0.5s;
+}
