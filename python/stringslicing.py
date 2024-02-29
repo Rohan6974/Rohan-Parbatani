@@ -3,7 +3,7 @@ name = 'Rohan,Amanur'
 # if we have to print the limited string then we use string slicing
 print(name[0:6])
 print(name[3:5])
-print(name[2:5])                           
+print(name[2:7])                           
 
 # to find the string length we use len statment
 print(len(name))

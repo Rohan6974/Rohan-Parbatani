@@ -1,5 +1,5 @@
 import time
 
-currenttime = time.strftime('%H:%M:%S:')
+currenttime = time.localtime(time.time())
 
 print(currenttime)
