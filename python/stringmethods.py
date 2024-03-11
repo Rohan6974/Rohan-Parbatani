@@ -1,4 +1,4 @@
-str = "Rohan Parbatani!!"
+str = ["Rohan Parbatani!!"]
 print(str.upper())
 
 # the upper function will convert all the letter inn upper case

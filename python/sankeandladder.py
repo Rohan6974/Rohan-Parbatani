@@ -12,6 +12,7 @@ def has_won(position):
         return False
 
 # Function to move the player
+
 def move_player(player, steps):
     player += steps
     if player > 100:
@@ -27,7 +28,6 @@ def check_snake_or_ladder(player):
         player = snakes[player]
     elif player in ladders:
         player = ladders[player]
-
     return player
 
 # Function to play the game
